@@ -8,7 +8,7 @@ renderer.setClearColor(0x000000);
 document.body.appendChild( renderer.domElement );
 
 //Lights
-dirLight = new THREE.DirectionalLight( 0xffffff, 2 );
+dirLight = new THREE.DirectionalLight( 0xffffff, 1 );
 dirLight.position.set( -1, 0, 50 );
 scene.add( dirLight );
 
