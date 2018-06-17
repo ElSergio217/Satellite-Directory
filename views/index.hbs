@@ -1,3 +1,5 @@
+<h1 id="title">{{title}}</h1>
+
 <div id="info">
 	<p>Avalible Satellites</p>
 	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
@@ -34,7 +36,9 @@
 					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">		  	 
 						<div class="row">
 							<div class="col-md-12">
-								<img id="feed" src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-CONUS-GEOCOLOR-625x375.gif" class="w-100">
+								<div id="feed" >
+									<img src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/GIFS/GOES16-CONUS-GEOCOLOR-625x375.gif" class="w-100">
+								</div>
 							</div>
 							{{#each data}}
 							<div class="col-md-6 col-sm-6">

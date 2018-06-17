@@ -106,5 +106,5 @@ var animate = function () {
 animate();
 
 function changeFeed(img){
-	document.getElementById("feed").src = img;
+	document.getElementById("feed").innerHTML = '<img src="'+ img +'" class="w-100">';
 }
